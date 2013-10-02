@@ -52,6 +52,8 @@ def daemon(interval, source, user, token):
         network_in = network_stats.bytes_recv
         network_out = network_stats.bytes_sent
 
+        # fire everything off to Librato in one swoop, note that the network_in and
+        # network_out are counters.
         metrics = librato.connect(user, token)
         queue = metrics.new_queue()
         queue.add('system.cpu_percent', cpu_percent, source=source)
