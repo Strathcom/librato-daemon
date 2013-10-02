@@ -57,14 +57,14 @@ $ sudo supervisorctl start libratod
 
 Set or override any of the following in your environment before running `libratod`.
 
-`LIBRATO_EMAIL' Your Librato email address (required).
+`LIBRATO_EMAIL` Your Librato email address (required).
 
-`LIBRATO_API_KEY' Your Librato [API Key](https://metrics.librato.com/account#api_tokens)
+`LIBRATO_API_KEY` Your Librato [API Key](https://metrics.librato.com/account#api_tokens)
 
-`LIBRATO_INTERVAL' (default `60`) The interval at which metrics are sent off to 
+`LIBRATO_INTERVAL` (default `60`) The interval at which metrics are sent off to 
 Librato.
 
-`LIBRATO_HOSTNAME' (defaults to the machine's hostname) The value to send as
+`LIBRATO_HOSTNAME` (defaults to the machine's hostname) The value to send as
 the `source` to Librato.
 
 ## Contributing
