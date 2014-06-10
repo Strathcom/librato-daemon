@@ -52,6 +52,10 @@ Then start the program with:
 $ sudo supervisorctl start libratod
 ```
 
+Once you've done all that you should see some pretty metrics in your librato account:
+
+![pretty metrics](http://i.gyazo.com/d6f26c01e7f9e0c98b26c637ac3ad312.png)
+
 
 ## Configuration
 
